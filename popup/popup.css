@@ -1,0 +1,108 @@
+body {
+  width: 250px;
+  padding: 5px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5dc;
+}
+
+.header {
+  margin: auto;
+  width: 100%;
+  border-bottom: 1px solid #bfaa94;
+  text-align: center;
+}
+
+button {
+  padding: 6px 10px;
+  cursor: pointer;
+  background-color: #1ABC9C;
+  border: 1px solid #16A085;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition-duration: 0.4s;
+  margin: 0;
+  font-size: 14px;
+  font-family: cursive, sans-serif;
+  color: white;
+}
+
+.buttons-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: flex-start;
+}
+
+button#delete-selections {
+  background-color: #ef4d3b;
+  border: 1px solid #c0392b;
+  margin-top: 2px; 
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button#delete-selections:hover {
+  background-color: #c0392b;
+}
+
+button#select-conversations {
+  background-color: #06768d;
+  border-color: #045a6b;
+}
+
+button#select-conversations:hover {
+  background-color: #045a6b;
+}
+
+button#deselect-conversations {
+  background-color: #996939;
+  border-color: #6f5133;
+}
+
+button#deselect-conversations:hover {
+  background-color: #6f5133;
+}
+
+button#select-all-conversations {
+  background-color: #c92cc9;
+  border-color: #5e095e;
+}
+
+button#select-all-conversations:hover {
+  background-color: #5e095e;
+}
+
+.buttons-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.buttons-row button {
+  width: 120px; /* remove-checkboxes add-checkboxes */
+}
+
+.buttons-row button:first-child {
+  margin-right: 10px;
+}
+
+.heart {
+  color: red;
+}
+
+.footer {
+  margin-top: 10px;
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+  border-top: 1px solid #bfaa94;
+  display: flex;
+  justify-content: center; 
+}

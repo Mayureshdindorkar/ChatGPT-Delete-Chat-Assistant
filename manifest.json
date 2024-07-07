@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Chat Delete Assistant",
+  "version": "1.0.0",
+  "description": "A Chrome extension to assist deletion of ChatGPT conversations",
+  "icons": {
+    "512": "images/dustbin.png"
+  },
+  "action": {
+    "default_icon": "images/dustbin.png",
+    "default_popup": "popup/popup.html",
+    "default_title": "ChatGPT Chat Delete Assistant"
+  },
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://chat.openai.com/*"
+      ],
+      "js": [
+        "scripts/sharedConstants.js",
+        "scripts/selectConversations.js",
+        "scripts/deleteSelections.js",
+        "scripts/deselectConversations.js",
+        "scripts/selectAllConversations.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
