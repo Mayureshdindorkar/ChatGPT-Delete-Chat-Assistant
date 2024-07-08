@@ -11,10 +11,6 @@
 
 - Source code link: [Github-repo](https://github.com/Mayureshdindorkar/ChatGPT-Chat-Delete-Assistant)
 
-
-### Main Interface
-![Main Interface](images/main_interface.png)
-
 ### Selecting Conversations Individually
 ![](GIFs/select-individual-conversations.gif)  
 
