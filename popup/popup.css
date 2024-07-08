@@ -11,7 +11,6 @@ body {
 .header {
   margin: auto;
   width: 100%;
-  border-bottom: 1px solid #bfaa94;
   text-align: center;
 }
 
@@ -102,7 +101,6 @@ button#select-all-conversations:hover {
   width: 100%;
   font-size: 12px;
   text-align: center;
-  border-top: 1px solid #bfaa94;
   display: flex;
   justify-content: center; 
 }
