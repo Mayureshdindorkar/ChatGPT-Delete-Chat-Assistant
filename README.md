@@ -1,5 +1,5 @@
 
-# ChatGPT Chat Delete Assistant
+# ChatGPT Delete Chat Assistant
 
 - It is a chrome extension that assists user for ChatGPT conversation deletion.  
 
@@ -26,9 +26,9 @@
 
 ## Usage
 
-1. Install the 'ChatGPT Chat Delete Assistant' Chrome extension.
+1. Install the 'ChatGPT Delete Chat Assistant' Chrome extension.
 2. Open the ChatGPT page.
-3. Click on the 'ChatGPT Chat Delete Assistant' extension icon.
+3. Click on the 'ChatGPT Delete Chat Assistant' extension icon.
 4. Select the conversations/chats that you want to delete by selecting the check boxes.
 5. Click on 'Delete Selection' button.
 6. Additional features like, "Select All Conversations" and 'De-select All Conversations' are also provided.
