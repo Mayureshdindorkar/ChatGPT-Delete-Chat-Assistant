@@ -2,7 +2,6 @@
 - It is a chrome extension that assists user for ChatGPT conversation deletion.  
 - Once the extension is installed, users can select the conversations from left side bar of chatGPT interface using checkboxes, and delete them at once.  
 - Additional features like, "Select All Conversations" and "De-select All Conversations" are also provided.  
-- This extension is especially beneficial for frequent ChatGPT users who need to manage their conversations efficiently. It allows them to delete multiple conversations simultaneously, saving both time and effort compared to deleting them individually.  
 
 ### Selecting Conversations Individually
 ![](GIFs/select-individual-conversations.gif)  
