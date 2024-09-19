@@ -9,7 +9,7 @@ if (typeof window.globalsLoaded !== 'undefined') {
         conversationsCheckbox: '.conversation-checkbox:checked',
         confirmDeleteButton: 'button.btn.btn-danger',
         threeDotButton: '[id^="radix-"]',
-        CONVERSATION_SELECTOR: 'div > div > div > div > div > div > nav > div > div > div > div > ol > li > div > a',
+        CONVERSATION_SELECTOR: 'body > div > div > div > div > div > nav > div > div > div > div > ol > li > div > a',
         TITLE_SELECTOR: '.relative.grow.overflow-hidden.whitespace-nowrap',
     };
     window.CHECKBOX_CLASS = 'conversation-checkbox';
